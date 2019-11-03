@@ -76,7 +76,7 @@ header {
     color: var(--fontcolor);
 }
 
-/* Button Read More Style*/
+/* ReadMore Button Style */
 
 .button {
     box-shadow: 0px 3px 14px -7px #276873;
@@ -124,6 +124,32 @@ header {
 
 .works img {
     width: 100%;
+}
+
+/* ViewMore Button Style */
+
+.button-view {
+    box-shadow: 0px 3px 14px -7px #276873;
+    background:linear-gradient(to bottom, #7a46bf 5%, #a94dc7 100%);
+    border-radius: 42px;
+    background-color: var(--lightpurple);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+}
+
+.button-view:hover {
+    background:linear-gradient(to bottom, #a94dc7 5%, #7a46bf 100%);
+    background-color: #a94dc7;
+}
+
+.button-view:active {
+    position: relative;
+    top: 1px;
 }
 
 /* Footer Style */
