@@ -1,6 +1,7 @@
 :root {
-    --bgcolor: ;
-    --fontcolor: ;
+    --bgcolor: rgba(248, 248, 248, 0.986); ;
+    --smallheadercolor: #7b46bf;
+    --fontcolor: rgb(133, 133, 133);
 }
 
 html {
@@ -11,6 +12,8 @@ html {
     box-sizing: border-box;
 }
 
+/* Header Style */
+
 header {
     background: url(img/background.jpg);
     width: 100%;
@@ -18,23 +21,91 @@ header {
 
 /*-webkit-linear-gradient(left, rgba(123,70,191,0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);*/
 
+.header {
+    margin: auto;
+    padding: 2% 0;
+    max-width: 960px;
+}
+
 .header h1 {
     font-size: 5em;
     background:  -webkit-linear-gradient(left, rgba(117, 85, 160, 0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    letter-spacing: 0.7em;
+    letter-spacing: 0.9em;
     text-transform: uppercase;
-    line-height: 3em;
+    line-height: 0.8em;
     font-weight: 200;
 }
 
 .header h3 {
     font-size: 2em;
     text-align: center;
-    line-height: 0;
+    line-height: 0em;
     letter-spacing: 0.2em;
     font-weight: 100;
+    color: var(--fontcolor);
+    opacity: 0.4;
+}
 
+/* Welcome Style */
+
+.content {
+    margin: auto;
+    max-width: 960px;
+}
+
+.welcome {
+    padding: 15%;
+    background-color: var(--bgcolor);
+    padding-top: 9%;
+    /*width: 40em;
+    height: 20em;
+    padding-top: 10%;*/
+    
+}
+
+.welcome h3 {
+    font-size: 1.7em;
+    text-align: center;
+    line-height: 1em;
+    color: var(--smallheadercolor);
+    letter-spacing: 0.1em;
+    font-weight: 540;
+}
+.welcome p {
+    text-align: center;
+    line-height: 1.2em;
+    color: var(--fontcolor);
+}
+
+/* Button Read More Style*/
+
+/* Portfolio Style */
+
+.works h3 {
+    font-size: 1.7em;
+    text-align: center;
+    line-height: 1em;
+    color: var(--smallheadercolor);
+    letter-spacing: 0.1em;
+    font-weight: 540;
+    text-transform: uppercase;
+}
+
+.works-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works-column {
+    flex: 20%;
+    max-width: 10%
+    padding: 20px;
+}
+
+.works-column img {
+    margin-top: 20px;
+    width: 55%;
 }
