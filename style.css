@@ -154,17 +154,23 @@ header {
 
 /* Footer Style */
 
+.footer {
+    background-color: var(--bgcolor);
+}
+
 .footer-content {
     max-width: 960px;
     line-height: 1.5;
-    
 }
 
 .socialmedia li {
-    display: inline;
+    list-style-type: none;
 }
 
 .socialmedia li a {
     font-size: 2rem;
-    color: var(--fontcolor);
+    color: var(--lightpurple);
+    text-decoration: none;
+    display: grid;
+    justify-content: space-around;
 }
