@@ -15,8 +15,12 @@ html {
 /* Header Style */
 
 header {
-    background: url(img/background.jpg);
     width: 100%;
+}
+
+.header {
+    background: url(img/background.jpg);
+    background-size: cover;
 }
 
 /*-webkit-linear-gradient(left, rgba(123,70,191,0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);*/
@@ -28,25 +32,32 @@ header {
 }
 
 .header h1 {
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    line-height: 0.8em;
     font-size: 5em;
-    background:  -webkit-linear-gradient(left, rgba(117, 85, 160, 0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);
+    color: white;
+    /* font-size: 5em;
+    background: -webkit-linear-gradient(left, rgba(117, 85, 160, 0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     letter-spacing: 0.9em;
     text-transform: uppercase;
     line-height: 0.8em;
-    font-weight: 200;
+    font-weight: 200; */
 }
 
 .header h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     line-height: 0em;
     letter-spacing: 0.2em;
-    font-weight: 100;
-    color: var(--fontcolor);
-    opacity: 0.4;
+    font-weight: 800;
+    color: white;
+    opacity: 0.6;
 }
 
 /* Welcome Style */
@@ -69,15 +80,18 @@ header {
     line-height: 1em;
     color: var(--lightpurple);
     letter-spacing: 0.1em;
-    font-weight: 540;
+    font-weight: 700;
 }
 .welcome p {
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1.5em;
     color: var(--fontcolor);
 }
 
 /* ReadMore Button Style */
+.welcome-note p{
+    padding: 2%;
+}
 
 .button {
     box-shadow: 0px 3px 14px -7px #276873;
@@ -106,13 +120,13 @@ header {
 /* Portfolio Style */
 
 .myworks h3 {
-    opacity: 0.8;
-    font-size: 3em;
+    opacity: 0.6;
+    font-size: 4em;
     text-align: center;
-    line-height: 4em;
+    line-height: 2em;
     color: var(--lightpurple);
     letter-spacing: 0.4em;
-    font-weight: 540;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
@@ -125,11 +139,14 @@ header {
 
 .works img {
     width: 100%;
+    opacity: 0.9;
+    border-radius: 0.7em;
 }
 
 /* ViewMore Button Style */
 .button-container {
     text-align: center;
+    padding: 5%;
 }
 
 .button-view {
@@ -171,7 +188,7 @@ ul.socialmedia {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style: none;
     height: auto;
     width: auto;
