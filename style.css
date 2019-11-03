@@ -39,15 +39,6 @@ header {
     line-height: 0.8em;
     font-size: 5em;
     color: white;
-    /* font-size: 5em;
-    background: -webkit-linear-gradient(left, rgba(117, 85, 160, 0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    letter-spacing: 0.9em;
-    text-transform: uppercase;
-    line-height: 0.8em;
-    font-weight: 200; */
 }
 
 .header h3 {
@@ -88,10 +79,11 @@ header {
     color: var(--fontcolor);
 }
 
-/* ReadMore Button Style */
 .welcome-note p{
     padding: 2%;
 }
+
+/* ReadMore Button Style */
 
 .button {
     box-shadow: 0px 3px 14px -7px #276873;
@@ -182,6 +174,7 @@ header {
 .footer-content {
     max-width: 960px;
     line-height: 1.5;
+    padding-top: 5px;
 }
 
 ul.socialmedia {
@@ -207,3 +200,5 @@ ul.socialmedia {
     color: var(--fontcolor);
     font-size: 0.8em;
 }
+
+
