@@ -1,8 +1,12 @@
+/*Variables*/
+
 :root {
     --bgcolor: rgba(248, 248, 248, 0.986); ;
     --lightpurple: #7b46bf;
     --fontcolor: rgb(133, 133, 133);
 }
+
+/* General */
 
 html {
     font-family: 'Nanum Gothic', sans-serif;
@@ -23,8 +27,6 @@ header {
     background-size: cover;
 }
 
-/*-webkit-linear-gradient(left, rgba(123,70,191,0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);*/
-
 .header {
     margin: auto;
     padding: 2% 0;
@@ -37,7 +39,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.4em;
     line-height: 0.8em;
-    font-size: 5em;
+    font-size: 4.6em;
     color: white;
 }
 
