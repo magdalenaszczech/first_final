@@ -109,3 +109,20 @@ header {
     margin-top: 20px;
     width: 55%;
 }
+
+/* Footer Style */
+
+.footer-content {
+    max-width: 960px;
+    line-height: 1.5;
+    
+}
+
+.socialmedia li {
+    display: inline;
+}
+
+.socialmedia li a {
+    font-size: 2rem;
+    color: var(--fontcolor);
+}
