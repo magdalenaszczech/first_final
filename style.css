@@ -1,0 +1,30 @@
+:root {
+    --bgcolor: ;
+    --fontcolor: ;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+header {
+    background: url(img/background.jpg);
+    width: 100%;
+}
+
+/*-webkit-linear-gradient(left, rgba(123,70,191,0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);*/
+
+h1 {
+    font-size: 5em;
+    background:  -webkit-linear-gradient(left, rgba(117, 85, 160, 0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    line-height: 2em;
+}
