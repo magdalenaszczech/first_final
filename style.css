@@ -163,14 +163,20 @@ header {
     line-height: 1.5;
 }
 
-.socialmedia li {
-    list-style-type: none;
+ul.socialmedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    height: auto;
+    width: auto;
 }
 
-.socialmedia li a {
-    font-size: 2rem;
+.socialmedia a{
+    font-size: 3em;
     color: var(--lightpurple);
     text-decoration: none;
-    display: grid;
-    justify-content: space-around;
+    line-height: 1.5em;
+    padding: 20px;
 }
