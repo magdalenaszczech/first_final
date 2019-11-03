@@ -85,6 +85,10 @@ header {
 /* Portfolio Style */
 
 .works h3 {
+    
+}
+
+.works h3 {
     font-size: 1.7em;
     text-align: center;
     line-height: 1em;
@@ -94,7 +98,17 @@ header {
     text-transform: uppercase;
 }
 
-.works-row {
+.works {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.works img {
+    width: 100%;;
+}
+/* .works-row {
     display: flex;
     flex-wrap: wrap;
 }
@@ -108,7 +122,7 @@ header {
 .works-column img {
     margin-top: 20px;
     width: 55%;
-}
+} */
 
 /* Footer Style */
 
