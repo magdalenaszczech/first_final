@@ -1,6 +1,6 @@
 :root {
     --bgcolor: rgba(248, 248, 248, 0.986); ;
-    --smallheadercolor: #7b46bf;
+    --lightpurple: #7b46bf;
     --fontcolor: rgb(133, 133, 133);
 }
 
@@ -60,17 +60,13 @@ header {
     padding: 15%;
     background-color: var(--bgcolor);
     padding-top: 9%;
-    /*width: 40em;
-    height: 20em;
-    padding-top: 10%;*/
-    
 }
 
 .welcome h3 {
     font-size: 1.7em;
     text-align: center;
     line-height: 1em;
-    color: var(--smallheadercolor);
+    color: var(--lightpurple);
     letter-spacing: 0.1em;
     font-weight: 540;
 }
@@ -82,18 +78,31 @@ header {
 
 /* Button Read More Style*/
 
-/* Portfolio Style */
-
-.works h3 {
-    
+.button {
+    box-shadow: 0px 3px 14px -7px #276873;
+    background:linear-gradient(to bottom, #7a46bf 5%, #a94dc7 100%);
+    border-radius: 42px;
+    background-color: var(--lightpurple);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
 }
 
-.works h3 {
-    font-size: 1.7em;
+.button
+
+/* Portfolio Style */
+
+.myworks h3 {
+    opacity: 0.8;
+    font-size: 3em;
     text-align: center;
-    line-height: 1em;
+    line-height: 4em;
     color: var(--smallheadercolor);
-    letter-spacing: 0.1em;
+    letter-spacing: 0.4em;
     font-weight: 540;
     text-transform: uppercase;
 }
@@ -106,23 +115,8 @@ header {
 }
 
 .works img {
-    width: 100%;;
+    width: 100%;
 }
-/* .works-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.works-column {
-    flex: 20%;
-    max-width: 10%
-    padding: 20px;
-}
-
-.works-column img {
-    margin-top: 20px;
-    width: 55%;
-} */
 
 /* Footer Style */
 
