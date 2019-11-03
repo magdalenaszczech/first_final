@@ -18,13 +18,23 @@ header {
 
 /*-webkit-linear-gradient(left, rgba(123,70,191,0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);*/
 
-h1 {
+.header h1 {
     font-size: 5em;
     background:  -webkit-linear-gradient(left, rgba(117, 85, 160, 0.68) 1%, rgba(123,70,191,0.62) 4%, rgba(219,54,164,0.56) 81%, rgba(219,54,164,0.54) 91%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.7em;
     text-transform: uppercase;
-    line-height: 2em;
+    line-height: 3em;
+    font-weight: 200;
+}
+
+.header h3 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 0;
+    letter-spacing: 0.2em;
+    font-weight: 100;
+
 }
